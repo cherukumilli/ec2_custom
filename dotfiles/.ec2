@@ -1,0 +1,10 @@
+export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.6.12.2
+export EC2_CUSTOM=$HOME/ec2_custom
+export PATH=$PATH:$EC2_HOME/bin:$EC2_CUSTOM
+export EC2_PRIVATE_KEY=`ls $EC2_CUSTOM/pk-*.pem`
+export EC2_CERT=`ls $EC2_CUSTOM/cert-*.pem`
+export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/jre"
+export AWS_ACCESS_KEY=<PLACEHOLDER. GET THIS VALUE from $HOME/ec2_custom/rootkey.csv file>
+export AWS_SECRET_KEY=<PLACEHOLDER. GET THIS VALUE from $HOME/ec2_custom/rootkey.csv file>
+## PLEASE REPLACE THE VALUE BELOW IF YOUR EC2SERVER IS IN A DIFFERENT REGION
+export EC2_URL=https://ec2.us-west-2.amazonaws.com
