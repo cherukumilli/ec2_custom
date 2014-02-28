@@ -1,4 +1,4 @@
-# EC2 custom scripts to automate starting and stopping of ec2 instances on Ubuntu
+## EC2 custom scripts to automate starting and stopping of ec2 instances on Ubuntu
 
 ###Problem: 
 AWS keeps charges for the free plans if you are not careful in managing the cpu time for your micro instance.
@@ -26,12 +26,13 @@ Use the EC2 CLI api's to stop and start the instance. Use the Linux bash scripts
 
            Host helphd
 
-           HostName ec2-54-200-197-55.us-west-2.compute.amazonaws.com
+           HostName ec2-11-222-333-44.us-west-2.compute.amazonaws.com
 
            User ubuntu
 
            IdentityFile "~/.ssh/xxxx.pem"
-    
+ 
+6. git is installed and configured on the Ubuntu development box
 
 
 ## Start and Stop ec2 instance using the scripts
